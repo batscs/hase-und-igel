@@ -1,0 +1,30 @@
+{
+  "currPlayer": 2,
+  "onTarget": [],
+  "players": [
+    {
+      "name": "Anton",
+      "suspended": true,
+      "eatsSalad": false,
+      "position": 5,
+      "carrots": 87,
+      "salads": 3
+    },
+    {
+      "name": "Berta",
+      "suspended": false,
+      "eatsSalad": false,
+      "position": 10,
+      "carrots": 22,
+      "salads": 3
+    },
+    {
+      "name": "Cäsar",
+      "suspended": true,
+      "eatsSalad": true,
+      "position": 7,
+      "carrots": 110,
+      "salads": 2
+    }
+  ]
+}

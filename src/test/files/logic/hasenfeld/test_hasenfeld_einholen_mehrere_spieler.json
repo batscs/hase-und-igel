@@ -1,0 +1,54 @@
+{
+  "currPlayer": 5,
+  "onTarget": [],
+  "players": [
+    {
+      "name": "Anton",
+      "suspended": false,
+      "eatsSalad": true,
+      "position": 7,
+      "carrots": 70,
+      "salads": 3
+    },
+    {
+      "name": "Berta",
+      "suspended": false,
+      "eatsSalad": false,
+      "position": 9,
+      "carrots": 53,
+      "salads": 3
+    },
+    {
+      "name": "Cäsar",
+      "suspended": false,
+      "eatsSalad": false,
+      "position": 10,
+      "carrots": 43,
+      "salads": 3
+    },
+    {
+      "name": "Dora",
+      "suspended": false,
+      "eatsSalad": false,
+      "position": 12,
+      "carrots": 20,
+      "salads": 3
+    },
+    {
+      "name": "Emil",
+      "suspended": false,
+      "eatsSalad": false,
+      "position": 13,
+      "carrots": 7,
+      "salads": 3
+    },
+    {
+      "name": "Frederic",
+      "suspended": false,
+      "eatsSalad": false,
+      "position": 0,
+      "carrots": 98,
+      "salads": 3
+    }
+  ]
+}

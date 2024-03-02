@@ -1,0 +1,99 @@
+{
+  "EMPTY": "",
+
+  "FIELD_HASE_MOVEAGAIN": "Ziehe gleich noch einmal!",
+  "FIELD_HASE_NEXTCARROT": "Ziehe sofort vorwärts zum nächsten Karotten-Feld! (falls vorhanden)",
+  "FIELD_HASE_PREVIOUSCARROT": "Ziehe sofort zurück zum letzten Karotten-Feld! (falls vorhanden)",
+  "FIELD_HASE_FORWARDS": "Rücke sofort um eine Position vor!",
+  "FIELD_HASE_BACKWARDS": "Du musst sofort um eine Position zurückfallen!",
+  "FIELD_HASE_EATSALAD": "Du musst sofort einen Salat essen!",
+  "FIELD_HASE_SUSPEND": "Du musst einmal aussetzen!",
+  "FIELD_HASE_TAKEORGIVE": "Du darfst 10 Karotten nehmen oder 10 Karotten abgeben!",
+  "FIELD_HASE_REFUND": "Dein letzter Zug kostet nichts!",
+  "FIELD_HASE_IDLE_SUSPEND": "Du setzt noch diese Runde aus aufgrund der vorherigen Hasen-Karte!",
+  "FIELD_HASE_TAKEORGIVE_DO_NOTHING": "Zug beenden",
+  "FIELD_HASE_TAKEORGIVE_TAKE": "10 Karroten ziehen",
+  "FIELD_HASE_TAKEORGIVE_GIVE": "10 Karotten abgeben",
+  "FIELD_HASE_POSITION_UNCHANGED": "Deine Position bleibt unverändert.",
+
+  "FIELD_CARROT_CHOICE": "Du bist auf ein Karottenfeld gelandet! Du darfst nun entscheiden ob du Karotten ziehen oder abgeben möchte, dafür jedoch diesen Spielzug ausetzt. Alternativ kannst du auch ganz normal weiterziehen.",
+  "FIELD_CARROT_GIVE": "10 Karotten ziehen",
+  "FIELD_CARROT_TAKE": "10 Karotten abgeben",
+  "FIELD_CARROT_CONTINUE_DRAWING": "Weiterziehen",
+  "FIELD_CARROTS_CANT_GIVE": "Achtung! {username} hat nicht genügend Karotten um 10 weiter Karotten abzugeben.",
+
+  "FIELD_SALAD_EAT": "{username} hat einen Salat gegessen, noch {salads} Salate sind übrig.",
+  "FIELD_NUMBER_GAINED_CARROTS": "Du hast durch deine Platzierung relativ zu deinen Mitspielern Karotten bekommen!",
+
+  "GAME_STATS_TURN": "Am Zug: ",
+  "GAME_STATS_CARROTS": "Karotten: ",
+  "GAME_STATS_SALADS": "Salate: ",
+
+  "GAME_REACH_FINISH_UNSUCCESSFUL": "{username} kann das Ziel nicht betreten, da {username} zu viele Karroten oder Salate hat, oder es sich nicht leisten kann.",
+  "GAME_REACH_FINISH_SUCCESSFUL": "{username} hat sich erfolgreich in das Ziel bewegt!",
+  "GAME_REACH_FINISH_UNSUCCESSFUL_SALADS": "{username} kann das Ziel nicht betreten, da {username} zu viele Salate übrig hat. Alle Salate müssen aufgegessen sein, um das Ziel zu betreten.",
+  "GAME_REACH_FINISH_UNSUCCESSFUL_CARROTS": "{username} kann das Ziel nicht betreten, da {username} zu viele Karotten übrig hat.",
+  "GAME_REACH_FINISH_UNSUCCESSFUL_ALL": "{username} kann das Ziel nicht betreten, da {username} zu viele Salate und Karotten übrig hat.",
+  "GAME_REACH_FINISH_UNSUCCESSFUL_CANT_AFFORD": "{username} kann das Ziel nicht betreten kann, da {username} ungenügend Karotten hat um die Wegkosten zu decken.",
+
+  "GAME_PLAYER_FORCE_RESET": "{username} kann keinen Zug durchführen und wird daher an den Startpunkt bewegt, außerdem werden die Karotten und Salate zurückgesetzt.",
+
+  "GUI_BUTTON_START": "Spiel starten",
+  "GUI_LABEL_PLAYERNAMES": "Spielername:",
+  "GUI_LABEL_PLAYERCOUNT": "Anzahl der Spieler",
+
+  "GUI_MENU_HEADER_FILE": "Datei",
+  "GUI_MENU_ITEM_SAVE": "Spielstand speichern",
+  "GUI_MENU_ITEM_EXIT": "Beenden",
+  "GUI_MENU_ITEM_NEW": "Spiel abbrechen",
+  "GUI_MENU_ITEM_LOAD": "Spielstand laden",
+  "GUI_MENU_ITEM_START": "Spiel starten",
+
+  "GUI_MENU_HEADER_VIEW": "Ansicht",
+  "GUI_MENU_ITEM_LANGUAGE_IMPORT": "Sprache importieren",
+  "GUI_MENU_ITEM_LANGUAGE_RESET": "Sprache zurücksetzen",
+
+  "GUI_MENU_HEADER_HELP": "Hilfe",
+  "GUI_MENU_ITEM_HELP": "Info",
+  "GUI_MENU_ITEM_ABOUT": "Über",
+
+  "GUI_ALERT_ABOUT_TITLE": "Programm-Spezifikationen",
+  "GUI_ALERT_ABOUT_CONTENT": "%s\nVersion: %s\nAuthor: %s\nVeröffentlicht: %s",
+
+  "GUI_ALERT_INFO_TITLE": "Informationen über das Programm",
+  "GUI_ALERT_INFO_CONTENT": "Dieses Java Programm wurde als Projekt im Rahmen des Programmierpraktikums an der Fachhochschule Wedel im Wintersemester 2023 entworfen. Entwickelt wurde das Programm vom Juli 2023 bis zum Januar 2024.",
+
+  "GAME_PLAYER_HAS_WON_TITLE": "Das Spiel wurde beendet, wir haben einen Sieger!",
+  "GAME_PLAYER_HAS_WON_CONTENT": "%s hat das Spiel gewonnen! Glückwunsch!",
+  "GAME_PLAYER_SUSPENDED": "Du setzt diese Runde aus!",
+
+  "ERROR_GAME_CANT_START_DUPLICATE_NAMES": "Ein Spiel darf nicht gestartet werden wenn zwei oder mehr teilnehmende Spieler einen identischen Namen besitzen. Bitte ändere diese damit der Fehler nicht mehr auftritt.",
+  "ERROR_FILE_NO_FILE_SELECTED": "Es wurde keine Datei ausgewählt wodurch die ausgeführte Aktion nicht durchgeführt werden kann, diese wurde nun abgebrochen.",
+  "ERROR_FILE_WRITE": "Es konnte nicht zu der ausgewählten Datei geschrieben werden.",
+  "ERROR_FILE_READ": "Die ausgewählte Datei konnte nicht gelesen werden.",
+  "ERROR_FILE_IMPORT_FILE_WRONG_JSON_FORMAT": "Die ausgewählte Datei ist in einem ungültigen Format und mit dieser kann nicht gearbeitet werden.",
+  "ERROR_GAME_INVALID_DATA": "Die ausgewählte Spieldatei entähöt ungültige Spielinformationen welche nicht in ein laufendes Spiel übersetzt werden können.",
+  "ERROR_LANGUAGE_INVALID_DATA": "Die ausgewähtle Sprachdatei enthält ungültige Übersetzungen und kann somit nicht verwendet werden. Es wird zur Standard-Sprache zurückgesetzt.",
+  "ERROR_LANGUAGE_INVALID_SIZE": "Die ausgewählte Sprachdatei übersetzt nicht alle Tokens und kann daher nicht verwendet werden. Der Vorgang wurde abgebrochen.",
+
+  "TITLE_GUI_ERROR": "Fehler",
+  "TITLE_GUI_ALERT_GAME_EVENT": "Ereignis",
+  "TITLE_GUI_MULTIPLE_CHOICE": "Benutzerwahl",
+
+  "HEADER_ERROR_FILE_LOADING": "Achtung! Ein Fehler ist bei einer Datei aufgetreten!",
+  "HEADER_ERROR_GAMEPLAY": "Achtung! Ein Fehler bezüglich des Spieles ist aufgetreten!",
+  "HEADER_ERROR_LANGUAGE": "Achtung! Ein Fehler ist bei dem Sprachsystem aufgetreten!",
+
+  "GUI_INFO_LANGUAGE_RESET": "Deine Sprache wurde erfolgreich auf die Werksteinstellungen zurückgesetzt.",
+  "GUI_INFO_LANGUAGE_RESET_DESCRIPTION": "Alle Schriften im Programm wurden nun aktualisiert und werden nun auf Deutsch angezeigt.",
+
+  "GUI_INFO_LANGUAGE_IMPORT": "Die ausgewählte Sprachdatei wurde erfolgreich ausgelesen und importiert.",
+  "GUI_INFO_LANGUAGE_IMPORT_DESCRIPTION": "Alle Schriften im Programm wurden nun aktualisiert und werden nun anhand deiner importieren Sprache übersetzt.",
+
+  "GAME_CONFIRMATION_ABORT_MATCH_AND_RESET": "Bist du sicher, dass du das laufende Spiel abbrechen möchtest",
+  "GAME_CONFIRMATION_EXIT": "Bist du sicher, dass du das Spiel abbrechen möchtest? Du kannst danach die Spieleranzahl und Namen anpassen, um ein neues Spiel zu starten.",
+  "GAME_CONFIRMATION_IMPORT": "Bist du sicher, dass du ein laufendes Spiel mit %s Teilnehmern laden möchtest?",
+
+  "GUI_FILE_CHOOSER_EXTENSION_GAME_FILE": "Hase-Und-Igel Datei",
+  "GUI_FILE_CHOOSER_EXTENSION_LANGUAGE_FILE": "Sprachkonfigurationsdatei"
+}

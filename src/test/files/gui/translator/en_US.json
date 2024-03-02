@@ -1,0 +1,97 @@
+{
+	"EMPTY": "",
+
+	"FIELD_HASE_MOVEAGAIN": "Move again!",
+	"FIELD_HASE_NEXTCARROT": "Move forward immediately to the next carrot field! (if available)",
+	"FIELD_HASE_PREVIOUSCARROT": "Move back immediately to the last carrot field! (if available)",
+	"FIELD_HASE_FORWARDS": "Move forward one position immediately!",
+	"FIELD_HASE_EATSALAD": "{username} immediately eat a salad!",
+	"FIELD_HASE_BACKWARDS": "You must immediately move back one position!",
+	"FIELD_HASE_SUSPEND": "You must skip a turn!",
+	"FIELD_HASE_TAKEORGIVE": "You can take 10 carrots or give away 10 carrots!",
+	"FIELD_HASE_REFUND": "Your last move costs nothing!",
+	"FIELD_HASE_IDLE_SUSPEND": "You skip this round due to the previous hare card!",
+	"FIELD_HASE_TAKEORGIVE_DO_NOTHING": "End turn",
+	"FIELD_HASE_TAKEORGIVE_TAKE": "Take 10 carrots",
+	"FIELD_HASE_TAKEORGIVE_GIVE": "Give away 10 carrots",
+	"FIELD_HASE_POSITION_UNCHANGED": "Your position remains unchanged.",
+
+	"FIELD_CARROT_CHOICE": "You've landed on a carrot field! You can now decide whether you want to take or give away carrots, but you'll skip this turn. Alternatively, you can continue moving as usual.",
+	"FIELD_CARROT_GIVE": "Take 10 carrots",
+	"FIELD_CARROT_TAKE": "Give away 10 carrots",
+	"FIELD_CARROT_CONTINUE_DRAWING": "Continue moving",
+	"FIELD_CARROTS_CANT_GIVE": "Attention! {username} doesn't have enough carrots to give away 10 more carrots.",
+
+	"FIELD_SALAD_EAT": "{username} has eaten a salad, {salads} salads are still left.",
+	"FIELD_NUMBER_GAINED_CARROTS": "You have gained carrots based on your position relative to other players!",
+
+	"GAME_STATS_TURN": "Current Player:",
+	"GAME_STATS_CARROTS": "Carrots:",
+	"GAME_STATS_SALADS": "Salads:",
+
+	"GAME_REACH_FINISH_UNSUCCESSFUL": "{username} cannot enter the goal because {username} has too many carrots or salads or cannot afford it.",
+	"GAME_REACH_FINISH_SUCCESSFUL": "{username} has successfully moved into the goal!",
+	"GAME_REACH_FINISH_UNSUCCESSFUL_SALADS": "{username} cannot enter the goal because {username} has too many salads. All salads must be consumed to enter the goal.",
+	"GAME_REACH_FINISH_UNSUCCESSFUL_CARROTS": "{username} cannot enter the goal because {username} has too many carrots.",
+	"GAME_REACH_FINISH_UNSUCCESSFUL_ALL": "{username} cannot enter the goal because {username} has too many salads and carrots.",
+	"GAME_REACH_FINISH_UNSUCCESSFUL_CANT_AFFORD": "{username} cannot enter the goal because {username} has insufficient carrots to cover the travel costs.",
+
+	"GAME_PLAYER_FORCE_RESET": "{username} can't make a legal move from the current position, {username} is being reset to the beginning.",
+
+	"GUI_BUTTON_START": "Start Game",
+	"GUI_LABEL_PLAYERNAMES": "Player Names:",
+	"GUI_LABEL_PLAYERCOUNT": "Number of Players",
+
+	"GUI_MENU_HEADER_FILE": "File",
+	"GUI_MENU_ITEM_SAVE": "Save Game",
+	"GUI_MENU_ITEM_EXIT": "Exit",
+	"GUI_MENU_ITEM_NEW": "Abort Game",
+	"GUI_MENU_ITEM_LOAD": "Load Game",
+	"GUI_MENU_ITEM_START": "Start Game",
+
+	"GUI_MENU_HEADER_VIEW": "View",
+	"GUI_MENU_ITEM_LANGUAGE_IMPORT": "Import Language",
+	"GUI_MENU_ITEM_LANGUAGE_RESET": "Reset Language",
+
+	"GUI_MENU_HEADER_HELP": "Help",
+	"GUI_MENU_ITEM_HELP": "Info",
+	"GUI_MENU_ITEM_ABOUT": "About",
+	"GUI_ALERT_ABOUT_TITLE": "Specifications of this Application",
+	"GUI_ALERT_ABOUT_CONTENT": "%s\nVersion: %s\nAuthor: %s\nReleased: %s",
+	"GUI_ALERT_INFO_TITLE": "Information about this Application",
+	"GUI_ALERT_INFO_CONTENT": "This Java program was designed as a project as part of the programming internship at Wedel University of Applied Sciences in the winter semester of 2023. The program was developed from July 2023 to January 2024.",
+	"GAME_PLAYER_HAS_WON_TITLE": "The game has finished, we have a Winner!",
+	"GAME_PLAYER_HAS_WON_CONTENT": "%s has won the Game! Congratulations!",
+	"GAME_PLAYER_SUSPENDED": "You are suspended for this turn!",
+
+	"ERROR_GAME_CANT_START_DUPLICATE_NAMES": "The game cannot start when two or more participating players have identical names. Please change these names to avoid the error.",
+	"ERROR_FILE_NO_FILE_SELECTED": "No file was selected, so the requested action cannot be performed. It has been canceled now.",
+	"ERROR_FILE_WRITE": "Could not write to the selected file.",
+	"ERROR_FILE_READ": "Could not read from the selected file.",
+	"ERROR_FILE_IMPORT_FILE_WRONG_JSON_FORMAT": "The selected file is in an invalid format and cannot be processed.",
+	"ERROR_GAME_INVALID_DATA": "The selected game file contains invalid game information that cannot be translated into an ongoing game.",
+	"ERROR_LANGUAGE_INVALID_DATA": "The selected language file contains invalid translations and cannot be used.",
+	"ERROR_LANGUAGE_INVALID_SIZE": "The selected language file does not translate all tokens and can not be used because of this.",
+
+
+	"TITLE_GUI_ERROR": "Error",
+	"TITLE_GUI_ALERT_GAME_EVENT": "Event",
+	"TITLE_GUI_MULTIPLE_CHOICE": "User Choice",
+
+	"HEADER_ERROR_FILE_LOADING": "Attention! An error occurred with a file!",
+	"HEADER_ERROR_GAMEPLAY": "Attention! An error related to the game has occurred!",
+	"HEADER_ERROR_LANGUAGE": "Attention! An error related to the translation system occurred!",
+
+	"GUI_INFO_LANGUAGE_RESET": "Your language has been successfully reset to the default settings.",
+	"GUI_INFO_LANGUAGE_RESET_DESCRIPTION": "All texts in the program have now been updated and will be displayed in German.",
+
+	"GUI_INFO_LANGUAGE_IMPORT": "The selected language file has been successfully read and imported.",
+	"GUI_INFO_LANGUAGE_IMPORT_DESCRIPTION": "All texts in the program have now been updated and will be translated based on your imported language.",
+
+	"GAME_CONFIRMATION_ABORT_MATCH_AND_RESET": "Are you sure you want to abort the current game?",
+	"GAME_CONFIRMATION_EXIT": "Are you sure you want to exit the game? You can adjust the number of players and names to start a new game afterward.",
+	"GAME_CONFIRMATION_IMPORT": "Are you sure you want to load a game with %s participants?",
+
+	"GUI_FILE_CHOOSER_EXTENSION_GAME_FILE": "Game File",
+	"GUI_FILE_CHOOSER_EXTENSION_LANGUAGE_FILE": "Language File"
+}
